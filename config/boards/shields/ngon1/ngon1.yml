@@ -1,6 +1,6 @@
 file_format: "1"
-id: smirkdeck1
-name: smirkdeck1
+id: ngon1
+name: ngon1
 type: shield
 url: https://github.com/gtips/reviung/tree/master/reviung41
 requires: [pro_micro]
