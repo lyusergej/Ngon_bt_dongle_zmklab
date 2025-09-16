@@ -1,5 +1,5 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_smirkdeck1
-    def_bool $(shields_list_contains,smirkdeck1)
+config SHIELD_ngon1
+    def_bool $(shields_list_contains,ngon1)
