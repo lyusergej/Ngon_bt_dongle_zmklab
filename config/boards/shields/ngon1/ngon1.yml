@@ -7,3 +7,6 @@ requires: [pro_micro]
 features:
   - keys
   - studio
+siblings:
+  - ngon1_left
+  - ngon1_right

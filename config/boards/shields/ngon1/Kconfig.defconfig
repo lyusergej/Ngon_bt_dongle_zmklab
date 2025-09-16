@@ -1,7 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_NGON1_LEFT
+if SHIELD_ngon1_LEFT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -12,7 +12,7 @@ config ZMK_SPLIT
 endif
 
 
-if SHIELD_NGON1_RIGHT || SHIELD_NGON1_LEFT
+if SHIELD_ngon1_RIGHT || SHIELD_ngon1_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "ngon1"
