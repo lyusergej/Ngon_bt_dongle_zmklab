@@ -1,6 +1,6 @@
 #include "ngon1.dtsi"
 
-
+/ {
 &default_transform {
     col-offset = <6>;
 };
@@ -27,3 +27,4 @@
             , <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
+};
