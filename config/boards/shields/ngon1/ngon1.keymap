@@ -13,11 +13,6 @@
     combos {
         compatible = "zmk,combos";
 
-        power_combo {
-            bindings = <&ext_power EP_TOG>;
-            key-positions = <0 11>;
-        };
-
         MO_3 {
             bindings = <&mo 3>;
             key-positions = <39 40>;
