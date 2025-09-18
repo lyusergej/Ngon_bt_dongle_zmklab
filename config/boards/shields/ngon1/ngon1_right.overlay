@@ -1,4 +1,4 @@
-#include "ngon1.dtsi"
+#include "ngon1_layouts.dtsi"
 
 
 &default_transform {
