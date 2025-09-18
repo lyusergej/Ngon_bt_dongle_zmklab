@@ -1,4 +1,4 @@
-#include "ngon1_layouts.dtsi"
+#include "ngon1.dtsi"
 
 / {
     kscan0: kscan_0 {
