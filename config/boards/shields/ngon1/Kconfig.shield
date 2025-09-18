@@ -6,3 +6,7 @@ config SHIELD_NGON1_LEFT
 
 config SHIELD_NGON1_RIGHT
     def_bool $(shields_list_contains,ngon1_right)
+
+config ZMK_STUDIO
+  bool "Enable ZMK Studio support"
+  default y if SHIELD_NGON1_LEFT
