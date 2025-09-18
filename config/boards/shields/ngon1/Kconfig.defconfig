@@ -6,6 +6,9 @@ if SHIELD_NGON1_LEFT
 config ZMK_KEYBOARD_NAME
     default "Ngon1"
 
+config ZMK_STUDIO
+    default y
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
