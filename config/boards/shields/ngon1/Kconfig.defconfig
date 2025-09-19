@@ -11,7 +11,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     int "Number of BLE peripherals"
-    default 2
+    default 1
 
 endif
 
