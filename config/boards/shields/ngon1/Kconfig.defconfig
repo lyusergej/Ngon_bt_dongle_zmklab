@@ -9,7 +9,9 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    int "Number of BLE peripherals"
+    default 2
 
 endif
 
