@@ -20,4 +20,7 @@ if SHIELD_NGON1_RIGHT || SHIELD_NGON1_LEFT || ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
+config ZMK_BLE
+    default y
+
 endif
