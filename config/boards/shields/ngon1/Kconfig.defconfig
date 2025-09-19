@@ -17,7 +17,4 @@ if SHIELD_NGON1_RIGHT || SHIELD_NGON1_LEFT
 config ZMK_SPLIT
     default y
 
-config ZMK_BLE
-    default n
-
 endif
