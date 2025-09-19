@@ -10,7 +10,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    int 2
+    int "2"
 
 endif
 
