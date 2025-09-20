@@ -1,15 +1,19 @@
 #include "ngon1.dtsi"
 
 
+&physical_layout0 {
+    kscan = <&kscan0>;
+    transform = <&default_transform>;
+};
+
 &default_transform {
-    col-offset = <6>;
+    col-offset = <5>;
 };
 
 / {
-    kscan0: kscan_0 {
+    kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        wakeup-source;
-
+        label = "KSCAN";
         diode-direction = "col2row";
 
         col-gpios
