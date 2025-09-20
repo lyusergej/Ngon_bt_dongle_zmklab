@@ -9,14 +9,16 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_SPLIT
+    default y
+
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    int "Number of BLE peripherals"
-    default 1
+    default 2
 
 endif
 
 
-if SHIELD_NGON1_RIGHT || SHIELD_NGON1_LEFT || ZMK_KEYBOARD_DONGLE
+if SHIELD_NGON1_RIGHT || SHIELD_NGON1_LEFT
 
 config ZMK_SPLIT
     default y
