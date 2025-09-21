@@ -1,4 +1,4 @@
-#include "thorium.dtsi"
+#include "ngonb.dtsi"
 
 zephyr_udc0: &usbd {
     status = "okay";

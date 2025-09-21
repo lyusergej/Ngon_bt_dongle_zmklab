@@ -1,7 +1,7 @@
-if SHIELD_THORIUM_DONGLE
+if SHIELD_NGONB_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Thorium"
+    default "ngonb"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -14,7 +14,7 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 
 endif
 
-if SHIELD_THORIUM_LEFT || SHIELD_THORIUM_RIGHT
+if SHIELD_NGONB_LEFT || SHIELD_NGONB_RIGHT
 
 config ZMK_SPLIT
     default y
