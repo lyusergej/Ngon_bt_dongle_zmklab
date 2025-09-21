@@ -15,4 +15,9 @@ zephyr_udc0: &usbd {
         rows = <0>;
         events = <0>;
     };
+
+    // Переопределяем physical_layout_0 — заменяем &kscan0 на &mock_kscan
+    physical_layout_0 {
+        kscan = <&mock_kscan>;
+    };
 };
