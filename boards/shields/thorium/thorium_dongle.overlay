@@ -16,8 +16,12 @@ zephyr_udc0: &usbd {
         events = <0>;
     };
 
-    // Переопределяем physical_layout_0 — заменяем &kscan0 на &mock_kscan
+    // Исправляем ошибку: определяем matrix_transform0 как default_transform
+    matrix_transform0: default_transform {};
+
+    // Переопределяем physical_layout_0 — исправляем обе ошибки
     physical_layout_0 {
         kscan = <&mock_kscan>;
+        transform = <&matrix_transform0>;
     };
 };
