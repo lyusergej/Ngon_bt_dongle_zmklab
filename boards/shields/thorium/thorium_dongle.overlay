@@ -4,24 +4,18 @@ zephyr_udc0: &usbd {
     status = "okay";
 };
 
+&physical_layout0 {
+    transform = <&default_transform>;
+};
+
 / {
     chosen {
         zmk,kscan = &mock_kscan;
     };
-
     mock_kscan: mock_kscan_0 {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
         events = <0>;
-    };
-
-    // Исправляем ошибку: определяем matrix_transform0 как default_transform
-    matrix_transform0: default_transform {};
-
-    // Переопределяем physical_layout_0 — исправляем обе ошибки
-    physical_layout_0 {
-        kscan = <&mock_kscan>;
-        transform = <&matrix_transform0>;
     };
 };
