@@ -1,0 +1,12 @@
+file_format: "1"
+id: ngon1
+name: Ngon1
+type: shield
+url: https://github.com/gtips/reviung/tree/master/reviung41
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - ngon1_left
+  - ngon1_right

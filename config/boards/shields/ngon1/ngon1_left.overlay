@@ -1,15 +1,12 @@
-#include "ngonb.dtsi"
-
-&physical_layout0 {
-    kscan = <&kscan0>;
-    transform = <&default_transform>;
-};
+#include "ngon1.dtsi"
 
 / {
-    kscan0: kscan {
+    kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
+        wakeup-source;
+
         diode-direction = "col2row";
+
         col-gpios
             = <&pro_micro 6 GPIO_ACTIVE_HIGH>
             , <&pro_micro 5 GPIO_ACTIVE_HIGH>

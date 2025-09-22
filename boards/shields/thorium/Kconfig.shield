@@ -1,8 +1,0 @@
-config SHIELD_NGONB_DONGLE
-    def_bool $(shields_list_contains,ngonb_dongle)
-
-config SHIELD_NGONB_LEFT
-    def_bool $(shields_list_contains,ngonb_left)
-
-config SHIELD_NGONB_RIGHT
-    def_bool $(shields_list_contains,ngonb_right)
