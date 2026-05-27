@@ -6,7 +6,7 @@ url:
 requires: [pro_micro]
 features:
   - keys
-#  - studio
+  - studio
 siblings:
   - ngon1_left
   - ngon1_right
